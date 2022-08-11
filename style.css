@@ -80,3 +80,23 @@ header h1{
 .col-content{
     padding: 1.5rem;
 }
+#section-c{
+    background-color: darkolivegreen;
+    color: #fff;
+    padding: 5rem;
+}
+#section-d .box{
+    padding: 5rem;
+}
+#section-d .box:first-child{
+    background-color: chocolate;
+}
+footer{
+    padding: 4rem;
+    background-color: darkslategray;
+    color: #eaeaea;
+}
+footer a{
+    color: darkgoldenrod
+    ;
+}
