@@ -27,5 +27,32 @@ p{
 }
 header{
     height: 46rem;
-    background-color: aquamarine;
+}
+.bgimage{
+    position: absolute;
+    background-image: url("https://picsum.photos/id/211/600/400");
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+    
+}
+.btn{
+    display: inline;
+    background:#333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #333;
 }
