@@ -25,6 +25,10 @@ a{
 p{
     padding: 1.6rem 0;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 header{
     height: 46rem;
 }
@@ -55,4 +59,24 @@ header h1{
 .btn:hover{
     background-color: #fff;
     color: #333;
+}
+#section-a{
+    background-color:#eaeaea;
+    color: #333;
+    padding: 3.2rem;
+}
+#section-b{
+    padding: 2rem;
+
+}
+#section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.col-content{
+    padding: 1.5rem;
 }
