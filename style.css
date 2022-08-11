@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    font-size: 7px;
 }
 body{
     font-family: 'Mouse Memoirs', sans-serif;
@@ -31,6 +31,11 @@ img{
 }
 header{
     height: 46rem;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .bgimage{
     position: absolute;
@@ -93,10 +98,28 @@ header h1{
 }
 footer{
     padding: 4rem;
-    background-color: darkslategray;
+    background-color: #666;
     color: #eaeaea;
 }
 footer a{
-    color: darkgoldenrod
-    ;
+    color: darkgoldenrod;
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 11px;
+    }
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
 }
